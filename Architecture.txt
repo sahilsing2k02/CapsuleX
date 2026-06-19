@@ -1,0 +1,521 @@
+Building a modern, production-ready full-stack web application called "CapsuleX".
+
+CapsuleX is NOT another Instagram clone.
+
+It is a social network where content gains value over time instead of disappearing.
+
+The core philosophy is:
+
+"Memories are meant to be unlocked, not endlessly scrolled."
+
+The design should feel premium, emotional, futuristic, and minimal, inspired by Apple, Notion, and Spotify.
+
+===================================
+TECH STACK
+===================================
+
+Frontend
+- React.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- React Router
+- Zustand/Redux
+- React Query
+
+Backend
+- Node.js
+- Express.js
+- MongoDB
+- Redis (notifications + caching)
+- Socket.io
+
+Authentication
+- JWT
+- Google OAuth
+
+Storage
+- Cloudinary
+
+Deployment Ready
+- Docker
+- Vercel
+- Render
+
+===================================
+MAIN FEATURES
+===================================
+
+## 1. Time Capsules ⭐
+
+Users create posts called Capsules.
+
+Each capsule can contain
+
+- Images
+- Videos
+- Text
+- Voice Notes
+- PDFs
+
+Each capsule has an unlock condition.
+
+Examples
+
+✓ Open after 1 day
+
+✓ Open after 1 month
+
+✓ Open after 5 years
+
+✓ Open on birthday
+
+✓ Open on graduation
+
+✓ Open on anniversary
+
+✓ Open on custom date
+
+Locked capsules cannot be viewed before unlock.
+
+Show beautiful countdown timers.
+
+===================================
+
+## 2. Conditional Unlocks ⭐
+
+Capsules may unlock when conditions become true.
+
+Examples
+
+Reach 100 followers
+
+Reach 1000 followers
+
+Complete 365 day streak
+
+Upload 100 posts
+
+Graduate college
+
+Finish internship
+
+Get first job
+
+Lose 15 kg
+
+Run marathon
+
+Complete 500 Leetcode problems
+
+The system automatically checks conditions.
+
+===================================
+
+## 3. Friendship Capsules ⭐
+
+Users can invite friends into a shared capsule.
+
+Everyone uploads
+
+Photos
+
+Videos
+
+Letters
+
+Voice Notes
+
+When the unlock date arrives
+
+Everyone receives a notification.
+
+Perfect for
+
+College memories
+
+Trips
+
+Birthdays
+
+Hackathons
+
+Farewell
+
+===================================
+
+## 4. Future Letters ⭐
+
+Users can send letters into the future.
+
+Examples
+
+To Yourself
+
+To Friend
+
+To Parents
+
+To Future Kids
+
+Letters remain encrypted until unlock.
+
+After unlocking
+
+User can reply
+
+creating an emotional conversation across time.
+
+===================================
+
+## 5. Voice From The Past ⭐
+
+Users can record voice messages.
+
+When opened years later
+
+play with an elegant audio player
+
+waveform animation
+
+timestamp
+
+transcript
+
+AI-generated subtitles.
+
+===================================
+
+## 6. Memory Galaxy ⭐
+
+Every capsule becomes a star.
+
+The user's life is visualized as a galaxy.
+
+Closer stars = recent memories.
+
+Older memories are farther away.
+
+Different colors
+
+Blue = Achievement
+
+Pink = Love
+
+Yellow = Friends
+
+Green = Travel
+
+Purple = Personal
+
+Clicking stars opens capsule details.
+
+This should be one of the coolest pages.
+
+===================================
+
+## 7. AI Reflection Dashboard ⭐
+
+When capsules unlock
+
+AI generates
+
+How much your writing style changed
+
+Goals completed
+
+Goals missed
+
+Mood evolution
+
+Most mentioned people
+
+Most visited places
+
+Growth timeline
+
+Emotion graph
+
+Create beautiful charts.
+
+===================================
+
+## 8. AI Memory Movie ⭐
+
+Whenever enough memories exist
+
+Generate
+
+A cinematic timeline
+
+Photos
+
+Videos
+
+Voice
+
+Background music
+
+AI narration
+
+Like Spotify Wrapped meets Google Photos.
+
+===================================
+
+## 9. Daily Time Journey ⭐
+
+Instead of infinite scrolling
+
+The home page shows
+
+Locked capsules
+
+sorted by
+
+Time Remaining
+
+Example
+
+Opens in 5 hours
+
+Tomorrow
+
+7 Days
+
+3 Months
+
+2 Years
+
+Every login feels like opening gifts.
+
+===================================
+
+## 10. Beautiful Unlock Experience ⭐
+
+When a capsule unlocks
+
+Play
+
+Soft animation
+
+Confetti
+
+Background music
+
+Countdown reaches zero
+
+Lock breaks
+
+Capsule slowly opens
+
+Contents fade in
+
+Feels like opening a treasure chest.
+
+===================================
+SOCIAL FEATURES
+===================================
+
+User Profiles
+
+Followers
+
+Following
+
+Like
+
+Comment
+
+Share
+
+Bookmarks
+
+Notifications
+
+Search
+
+Explore
+
+Friend Requests
+
+Real-time Chat
+
+Real-time Notifications
+
+===================================
+AI FEATURES
+===================================
+
+Use Gemini/OpenAI APIs.
+
+Generate
+
+Capsule Summary
+
+Emotion Detection
+
+Memory Tags
+
+Auto Titles
+
+Reflection
+
+Goal Tracking
+
+Writing Style Evolution
+
+Mood Analysis
+
+Smart Search
+
+Example
+
+"Show memories where I felt happiest in college."
+
+===================================
+UI DESIGN
+===================================
+
+Theme
+
+Dark
+
+Minimal
+
+Premium
+
+Apple Inspired
+
+Glassmorphism
+
+Rounded Corners
+
+Soft Shadows
+
+Beautiful gradients
+
+Smooth animations
+
+Page transitions
+
+Micro interactions
+
+No clutter.
+
+===================================
+PAGES
+===================================
+
+Landing Page
+
+Authentication
+
+Home Timeline
+
+Explore
+
+Create Capsule
+
+Capsule Details
+
+Memory Galaxy
+
+Reflection Dashboard
+
+Movie Generator
+
+Messages
+
+Future Letters
+
+Notifications
+
+Profile
+
+Settings
+
+===================================
+DATABASE MODELS
+===================================
+
+User
+
+Capsule
+
+Friendship Capsule
+
+Letter
+
+Unlock Condition
+
+Notification
+
+Comment
+
+Like
+
+Chat
+
+Message
+
+AI Reflection
+
+Movie
+
+===================================
+BONUS FEATURES
+===================================
+
+Dark/Light Mode
+
+Offline Drafts
+
+Push Notifications
+
+QR Code Capsule Sharing
+
+Capsule Encryption
+
+End-to-End Encryption for Letters
+
+Export Memory PDF
+
+Export Timeline
+
+Weekly Memory Email
+
+===================================
+ANIMATIONS
+===================================
+
+Every interaction should feel alive.
+
+Hover animations
+
+Floating cards
+
+Animated countdown
+
+Unlock effects
+
+Page transitions
+
+Particle backgrounds
+
+Galaxy animations
+
+Voice wave animation
+
+Confetti
+
+===================================
+GOAL
+===================================
+
+This application should NOT feel like Instagram.
+
+It should feel like a premium emotional platform where people preserve memories, communicate with their future selves, and experience time in a completely new way.
+
+Users should leave feeling nostalgic, hopeful, and emotionally connected to their own journey.
+
+Code should be modular, scalable, production-ready, and follow clean architecture with reusable components, proper folder structure, REST APIs, authentication, protected routes, responsive design, error handling, loading states, optimistic UI updates, and best coding practices.
